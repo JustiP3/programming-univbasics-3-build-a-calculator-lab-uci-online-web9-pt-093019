@@ -15,10 +15,7 @@ num1 * num2
 end
 
 def modulo(num1, num2)
-base = num1 / num2
-float1 = num1.to_f 
-float2 = num2.to_f
-rem = (float1 / float2) - base
+num1 % num2
 end
 
 def square_root(num)
